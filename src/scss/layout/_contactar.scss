@@ -1,0 +1,42 @@
+
+.no-webp .imagen-contacto{
+    background-image: url("../img/encuentra.jpg");
+}
+
+.webp .imagen-contacto{
+    background-image: url("../img/encuentra.webp");
+}
+
+.imagen-contacto{
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    padding: $separacion * 2 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .fondo-Contacto{
+        background-color: $gris;
+        border-radius: 2rem;
+        padding: 2rem;
+
+        a{
+            text-align: center;
+
+        }
+    }
+    h2{
+        font-size: 4rem;
+        font-weight: bold;
+        color: $negro;
+   
+
+    }
+
+    p{
+        font-size: 1.8rem;
+        color: $negro;
+    }
+
+}

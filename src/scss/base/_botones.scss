@@ -1,0 +1,46 @@
+.boton__negro{
+    @include boton($negro, block);
+        
+    
+}
+
+.boton__negro-inline{
+    @include boton($negro, inline-block);
+        
+    
+}
+
+.boton__display{
+    display: inline-block;
+}
+
+.boton__vinotinto{
+    @include boton($vinotinto, block);
+        
+    
+}
+
+.boton__vinotinto-inline{
+    @include boton($vinotinto, inline-block);
+        
+    
+}
+.boton__rojo{
+    @include boton($rojo, block);
+        
+    
+}
+
+.boton-rojo-block{
+    @include boton($rojo,block);
+    width: 92%;
+}
+
+.boton-verde-block{
+    @include boton($verde,block);
+    
+}
+
+.boton-amarillo-block{
+    @include boton($amarillo, block);
+}

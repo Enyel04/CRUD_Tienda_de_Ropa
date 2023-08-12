@@ -1,0 +1,67 @@
+.no.webp .inicio{
+
+    background-image:url(../img/header.jpg) ;
+    background-size: cover;
+    height: 10px;
+}
+
+.webp .inicio{
+
+    background-image: url(../img/header.webp);
+    background-size: cover;
+    height: 10px;
+}
+
+.header__imagen{
+    position: relative;
+    height: 50rem;
+  img{
+
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+}
+
+
+
+.header{
+    background-color: $vinotinto;
+    padding: 1rem 0 3rem 0;
+  
+    &.inicio{
+        background-position: center center;
+        background-size: cover;
+
+        @include tablet{
+
+            min-height: 70rem;
+            
+        }
+        .contenido-header{
+            @include tablet{
+                min-height: 70rem;
+                
+            }
+        }
+    }
+}
+
+.contenido-header{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+
+
+    h1{
+        text-align: center;
+        color: $blanco;
+        font-weight: bold;
+        line-height:2 ;
+        max-width: 60rem;
+    }
+}

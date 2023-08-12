@@ -1,0 +1,20 @@
+.contenido-nosotros{
+    padding:1rem;
+
+    @include tablet{
+        @include grid(2,5rem);
+        
+    }
+    @include grid(1,5rem);
+    h3{
+        text-align: left;
+        font-weight: bold;
+        p{
+            font-weight: 400;
+            text-align: justify;
+        }
+ 
+    
+}
+
+}

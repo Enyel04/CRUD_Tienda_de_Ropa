@@ -1,0 +1,53 @@
+@include tablet{
+    .seccion-inferior{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 2rem;
+}
+}
+.entrada-blog{
+    margin-bottom: 2rem;
+    gap:2rem;
+
+    @include tablet{
+        @include grid(2,2);
+
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    
+}
+
+}
+
+.texto-entrada{
+    a{
+        color: $negro;
+       
+    }
+    h4{
+        margin: 0;
+        line-height: 1.4;
+        margin-top: 10rem;
+
+        &::after{
+            content: "";
+            display:block;
+            width: 15rem;
+            height: .5rem;
+            background-color: $vinotinto ;
+            margin-top: 1rem;
+
+        }
+    }
+
+
+}
+
+.informacion__blog{
+
+    span{
+        font-weight: bold;
+        color: $vinotinto;
+    }
+}

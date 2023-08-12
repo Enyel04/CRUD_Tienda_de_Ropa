@@ -1,0 +1,49 @@
+.footer{
+    margin: 0 auto;
+    padding: 1rem 0;
+    background-color: $vinotinto;
+    margin-bottom: 0;
+
+
+
+
+    .contenedor-footer{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        text-align: center;
+       
+     
+        .navegacion{
+ 
+            overflow: visible;
+            display: flex;
+            font-size: 1rem;
+            justify-content: center ;
+            padding-bottom: 3rem;
+            gap: 1rem;
+           
+           @include tablet{
+            
+            gap: 1rem;
+            font-size: x-large 2px;
+         
+            
+           }
+          
+        
+             
+    
+      
+   
+         
+        }
+        
+    }
+
+    .copyright{
+    
+        color: $blanco;
+        text-align: center;
+    }
+}
+
